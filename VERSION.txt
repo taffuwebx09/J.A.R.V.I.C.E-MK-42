@@ -1,0 +1,4 @@
+J.A.R.V.I.C.E MK-42
+Build: 2026-11-16
+UI: MK-42 Reference Glass Interface
+Base: J.A.R.V.I.S V2.2.1 Phase 5 (frontend-only refresh)
