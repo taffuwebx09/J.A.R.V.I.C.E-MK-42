@@ -1,0 +1,15 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.streamlit/secrets.toml
+data/logs/*.log
+data/jobs/*/source.xlsx
+data/jobs/*/processed.xlsx
+data/master_versions/*.xlsx
+
+# Center-specific local data (never commit or distribute another center's records)
+data/rtag_memory.db*
+data/jobs/
+data/master_versions/
+master/
