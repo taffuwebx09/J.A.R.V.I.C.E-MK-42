@@ -1,0 +1,58 @@
+J.A.R.V.I.C.E MK-42 — FIRST-TIME WINDOWS SETUP
+==========================================
+
+1. Extract the complete J.A.R.V.I.C.E MK-42 folder to a permanent location.
+   Example: C:\Tools\J.A.R.V.I.C.E MK-42
+
+2. Install Python 3.10 or newer if it is not already installed.
+   During installation, enable "Add Python to PATH".
+
+3. Make sure the computer has an internet connection for one-time package setup.
+
+4. Double-click Setup_JARVIS.bat and wait for SETUP COMPLETE.
+
+5. Setup creates a Desktop shortcut using the J.A.R.V.I.S logo.
+   For daily use, double-click the Desktop shortcut.
+
+FIRST-TIME CENTER CONFIGURATION
+-------------------------------
+1. Open J.A.R.V.I.S and go to Master Memory.
+2. Enter the center name.
+3. Upload that center's Master Excel file.
+4. Check the validation results and detected R-Tag conflicts.
+5. Confirm activation.
+6. Then upload daily address Excel files from Process Address File.
+
+A fresh distribution contains an EMPTY Master Database. Each center must upload
+its own Master file. Keep each center's J.A.R.V.I.S folder and data folder separate.
+
+DAILY WORKFLOW
+--------------
+1. Upload the daily .xlsx address workbook.
+2. Run R-Tag Matching.
+3. Resolve suggested / ambiguous / unmatched addresses in Review Center.
+4. Download the final Excel.
+
+The original address text is preserved. Corrections require explicit approval.
+Daily processing history is retained in the Dashboard even if an active workbook
+is replaced or archived.
+
+MASTER UPDATES
+--------------
+Upload a revised Master from Master Memory, review the staged changes and confirm
+activation. The current Master remains active until the new one is confirmed.
+The active address workbook is reprocessed against the new Master.
+
+BACKUP
+------
+Use Backup & Restore to download a full local backup. Never copy one center's data
+folder into another center's installation.
+
+STOPPING THE APP
+----------------
+Use Stop_JARVIS.bat to stop the local server. Closing the browser alone does not
+stop the local server.
+
+LOCAL ADDRESS
+-------------
+http://127.0.0.1:8501
